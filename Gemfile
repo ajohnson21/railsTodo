@@ -52,5 +52,9 @@ group :development, :test do
 
   gem "auto_html"
 
+  gem 'rails_12factor', group: :production
+
+  ruby "2.2.1"
+
 end
 
